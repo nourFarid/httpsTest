@@ -1,0 +1,37 @@
+.parent {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  font-size: 50px;
+}
+
+form {
+  display: grid;
+  border-radius: 10px;
+  margin: 5%;
+  padding: 50px;
+  padding-top: 0px;
+  box-shadow: 10px 10px 20px 0px rgba(255, 0, 0, 0.135),
+    -10px -10px 20px 0px rgb(2, 129, 198, 0.135);
+}
+
+button {
+  border-radius: 10px;
+  border: 0.7px rgb(2, 129, 198) solid;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: rgb(2, 129, 198);
+}
+.parent form h1 {
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+  color: rgba(255, 0, 0, 0.409);
+}
